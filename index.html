@@ -8,22 +8,24 @@
     <meta name="description" content="National Gold Gym A Place for physique lovers in Sweden.">
     <meta name="keywords" content="National gold gym a place for physique lovers in sweden">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet"  media="screen and (max-width:530px)"  href="phone.css">
     <title>National Gold Gym</title>
 </head>
 
 <body>
     <nav class="navbar">
         <ul>
-            <li> <a href="#">Home</a> </li>
-            <li> <a href="#">About</a> </li>
-            <li> <a href="#">Contact</a> </li>
-            
-            
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#contact">Contact</a></li>
+
+
         </ul>
 
     </nav>
 
-    <!--home section-->
+    
     <section id="home">
         <div class="main">
             <h1>Our Gym Is Your <br> Gym <br>Kick your feet up!</h1>
@@ -32,6 +34,41 @@
 
 
     </section>
+
+
+    <section id="about">
+        <h1 class="headings">ABOUT US</h1>
+        <div id="pic">
+           
+            <img src="/assets/images/ag2.jpg" alt="">
+
+            <div class="intro">
+                <h2>NATIONAL GOLD GYM</h2>
+                <P> <strong>INTENSIVE WORKOUT</strong>
+                    We can offer INTENSIVE WORKOUT at several of our facilities <br> This means that even
+                    the gyms that do not have group training will now offer circuit training.
+
+                    <br> INTENSIVE WORKOUT is perfect for you who want to train with others, <br> and whether you are
+                    experienced or new to the gym, you can count on both a fun and challenging workout. <br> The workout is
+                    held outside in the gym with a trained instructor. The whole body is trained and everyone can
+                    participate.</P>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+        <input type="text" name="name" class="input" placeholder="Enter Your name">
+        <input type="email" name="email" class="input" placeholder="Enter Your Email">
+        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+        <input type="submit" value="SEND" id="send">
+    </form>
+
+    </section>
+
 
 </body>
 
